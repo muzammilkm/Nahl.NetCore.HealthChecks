@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/muzammilkm/Nahl.NetCore.HealthChecks</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/muzammilkm/Nahl.NetCore.HealthChecks</RepositoryUrl>
+    <PackageTags>Tcp Health Checks; Health Checks; Kubernetes; Dotnet Console App;</PackageTags>
+    <Description>Tcp Health checks for dotnet console application hosted on kubernetes.</Description>
+    <Authors>Muzammil Khaja Mohammed</Authors>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
