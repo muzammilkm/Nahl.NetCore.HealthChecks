@@ -6,7 +6,7 @@ namespace Nahl.NetCore.HealthChecks.Extensions
 {
     public static class TcpHealthCheckExtensions
     {
-        public static IServiceCollection AddTcpHealthChecks(this IServiceCollection services, Action<HealthCheckOptions>? setupAction = null)
+        public static IServiceCollection AddTcpHealthChecks(this IServiceCollection services, Action<HealthCheckOptions> setupAction = null)
         {
             services
                 .AddOptions()

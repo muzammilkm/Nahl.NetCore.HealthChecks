@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -9,6 +9,7 @@
     <Description>Tcp Health checks for dotnet console application hosted on kubernetes.</Description>
     <Authors>Muzammil Khaja Mohammed</Authors>
     <Version>1.0.0</Version>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
