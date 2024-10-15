@@ -8,7 +8,7 @@
     <PackageTags>Tcp Health Checks; Health Checks; Kubernetes; Dotnet Console App;</PackageTags>
     <Description>Tcp Health checks for dotnet console application hosted on kubernetes.</Description>
     <Authors>Muzammil Khaja Mohammed</Authors>
-    <Version>1.2.0</Version>
+    <Version>1.5.0</Version>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
