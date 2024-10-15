@@ -48,7 +48,11 @@ namespace Nahl.NetCore.HealthChecks
 
         public Task StopAsync(CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            if (_listener != null)
+            {
+                _listener.Stop();
+            }
+            return Task.CompletedTask;
         }
     }
 }
